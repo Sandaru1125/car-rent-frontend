@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Header from "../components/Header";
 
 export default function ViewCars() {
   const carsData = [
@@ -48,8 +49,11 @@ export default function ViewCars() {
   });
 
   return (
-    <div className="min-h-screen bg-gray-50 px-6 py-12 w-screen">
-      <div className="max-w-7xl mx-auto">
+    <div className="min-h-screen bg-gray-50 px-6 py-12 w-screen pt-24">
+         
+        <Header/>
+
+      <div className="max-w-7xl mx-auto ">
 
         {/* ===== HEADER ===== */}
         <div className="text-center mb-10">
